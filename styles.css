@@ -412,5 +412,7 @@ ul {
 
   .footer-links .footer-container ul {
     text-align: center;
+    margin: 0 auto;
   }
+ 
 }
