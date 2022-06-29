@@ -7,5 +7,4 @@ ScrollReveal().reveal('.news-cards', { delay: 100 });
 ScrollReveal().reveal('.cards-banner-one', { delay: 500 });
 ScrollReveal().reveal('.cards-banner-two', { delay: 500 });
 ScrollReveal().reveal('.footer-container', { delay: 500 });
-ScrollReveal().reveal('.footer', { delay: 100 });
 
