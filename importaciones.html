@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>CNA Logistics</title>
+  <link rel="icon" type="text/css" href="img/LogoCNA.png">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/LogoCNA.png" alt="CNA Logistics" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Nosotros</a>
+        </li>
+        <li>
+          <a href="importaciones.html">Importar</a>
+        </li>
+        <li>
+          <a href="#">Exportar</a>
+        </li>
+        <li>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#" id="wsp">
+            <img src="img/whatsapp.png" id="nav-wsp">
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- SHOWCASE -->
+    <header class="showcase">
+      <div class="ie">
+        <h2>Soluciones integrales para importadores</h2>
+        <p>Si usted está trayendo mercadería de un país
+          extranjero a Perú. Nosotros nos encargamos de toda
+          la logística:</p>
+        <ul>
+          <li>Transporte, gestión y aduanas en el país de
+            origen.</li>
+          <li>Transporte internacional (Marítimo, Aéreo o
+            Multimodal).</li>
+          <li>Desaduanaje y almacenaje a la llegada a
+            Perú.</li>
+          <li>Transporte interno y entrega de la
+            mercadería en su domicilio o almacén.</li>
+        </ul>
+      </div>
+      <div class="card"><img src="img/impo_cna.png"></div>
+
+    </header>
+
+    <!-- FORMULARIO-->
+    <div class="formulario section-form">
+      <!-- TABLA-->
+      <form action="/my-handling-form-page" method="post" class="form">
+
+        <h3>Cotice su Importación</h3>
+        <div class="sec">
+          <div class="box1">
+            <h4>Datos personales</h4>
+          </div>
+          <div class="box2">
+            <label for="name" > SU NOMBRE (*)</label>
+            <input class="controlstn grid" type="text" id="name" name="user_name" placeholder="P.ej. JUAN PEREZ">
+          </div>
+          <div class="box3">
+            <label for="mail"> TELEFONO (*) </label>
+            <input class="controlstn grid" type="text" id="telefono" name="telef" placeholder="Ingrese su número de celular">
+          </div>
+          <div class="box2">
+            <label for="mail"> E-MAIL (*) </label>
+            <input class="controlstn grid" type="email" id="mail" name="user_mail"
+              placeholder="Ingrese su correo electrónico">
+          </div>
+        </div>
+
+        <div class="sec">
+          <div class="box1">
+            <h4>Información de la carga</h4>
+          </div>
+          <div class="box2">
+            <label for="name"> ORIGEN DE LA CARGA (*)</label>
+            <input class="controlstn grid" type="text" id="name" placeholder="País, Ciudad, Puerto, Aeropuerto o CP"
+              name="user_name">
+          </div>
+          
+          <div class="box3">
+            <label for="mail"> ALMACEN DE LLEGADA EN PERÚ (*) </label>
+            <input class="controlstn grid" type="text" id="telefono" placeholder="Su dirección para entrega en Perú"
+              name="telef">
+          </div>
+          <div class="box2">
+            <label for="mail"> TIPO DE TRANSPORTE (*) </label>
+            <input class="controlstn grid" type="text" id="mail" placeholder="Marítimo / Aéreo" name="user_mail">
+          </div>
+          <div class="box3">
+            <label for="name">INCOTERM</label>
+            <input class="controlstn grid" type="email" id="mail" placeholder="Pej. FOB" name="user_mail">
+          </div>
+        </div>
+
+        <div class="sec">
+          <div class="box1">
+            <h4>Especificaciones detalladas</h4>
+          </div>
+          <div class="box2">
+            <label for="name">PESO (Kg)</label>
+            <input class="controlstp grid" type="number" placeholder="Peso total" name="user_mail">
+          </div>
+
+          <div class="box3">
+              <label for="name" class="grid">MEDIDAS DE BULTO</label>
+              <input class="controlstp " type="number" placeholder="Largo" name="user_mail">
+              <input class="controlstp" type="number" placeholder="Ancho" name="user_mail">
+              <input class="controlstp" type="number" placeholder="Alto" name="user_mail">
+            </div>
+            <div class="box2" >
+              <label for="name" class="grid"> DESCRIPCIÓN DE LA MERCADERÍA </label>
+              <textarea id="msg" placeholder="P.ej. Repuestos, Celulares, Juguetes, etc." name="user_message"
+                maxlength="100"></textarea>
+            </div>
+            <div class="box3">
+              <label for="name">VOL (m3)</label>
+              <input class="controlstp" type="number" placeholder="Vol. total" name="user_mail">
+              <label for="name"># BULTOS</label>
+              <input class="controlstp" type="number" placeholder="Opcional" name="user_mail">
+            </div>
+        </div>
+        <div class="sec">
+          <div class="boxend btn-grid">
+            <a href="#" class="btn">Cotizar Importación</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Card Banner 1-->
+    <section class="cards-banner-one">
+      <div class="contact">
+        <h3>Lorem, ipsum dolor.</h3>
+        <a href="#" class="btn">Contáctenos ahora</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Links -->
+
+
+  <div class="footer-container">
+    <section class="footer-texto">
+      <h3>INTERNATIONA LOGISTICS S.A.C.</h3>
+      <p>Av. Lorem Ipsum 123. Lima, Perú.</p>
+      <p>Central telefónica: +51 4565656</p>
+      <p>e-mail: test@cna-int.com.pe</p>
+      <p>Más información tipo disclaimer</p>
+    </section>
+    <section>
+      <ul>
+        <li>
+          <h3>Enlaces rápidos</h3>
+        </li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Acerca de nosotros</a></li>
+        <li><a href="importaciones.html">Importaciones</a></li>
+        <li><a href="#">Exportaciones</a></li>
+      </ul>
+    </section>
+    <section class="social">
+      <p>CNA Logistics</p>
+      <div class="links">
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook-f" id="wc"></i>
+        </a>
+        <a href="https://linkdin.com">
+          <i class="fab fa-linkedin" id="wc"></i>
+        </a>
+        <a href="https://instagram.com">
+          <i class="fab fa-instagram" id="wc"></i>
+        </a>
+        <a href="https://web.whatsapp.com">
+          <i class="fab fa-whatsapp" id="wc"></i>
+        </a>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>CNA Copyright ©</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

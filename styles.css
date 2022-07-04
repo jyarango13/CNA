@@ -159,6 +159,9 @@ ul {
   display: flex;
   background-color: var(--colorCNA);
 }
+.form{
+  margin: 0 auto;
+}
 .sec{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -197,6 +200,7 @@ ul {
 .form input,textarea{
   border:1px solid var(--grisCNA) ;
   border-radius: 4px;
+  height: 40px;
 }
 .box1 {
   grid-column-start: 1;
@@ -522,7 +526,7 @@ ul {
   }
   .form textarea{
     align-items: center;
-    width: 350px;
+    width: 280px;
   }
   .box1{
     margin: 20px auto;
