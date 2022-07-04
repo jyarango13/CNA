@@ -162,8 +162,6 @@ ul {
 .sec{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-top:  2px solid  rgba(0, 0, 0, 0.5);
-  background-color: #ffffff;
   color: var(--grisCNA);
   padding: 50px auto;
   margin: 20px auto;
@@ -182,6 +180,10 @@ ul {
   margin-bottom: 24px;
   font-weight: bolder;
   font-size: 24px;
+}
+.form h4{
+  font-weight: bolder;
+  font-size: 20px;
 }
 .form input,textarea{
   border:1px solid var(--grisCNA) ;
@@ -464,6 +466,10 @@ ul {
     display: grid;
     text-align: center;
   }
+  .form h3,
+  .form h4{
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -525,5 +531,9 @@ ul {
   .btn-grid{
     text-align: center;
     display: grid;
+  }
+  .form h3,
+  .form h4{
+    text-align: center;
   }
 }
