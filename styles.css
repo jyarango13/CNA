@@ -216,17 +216,15 @@ ul {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-  
 }
 .box{
-    margin: 20px auto;
+    margin: 20px 0;
 }
 .box4{
   grid-column-start:1;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 5;
-  margin: 0 30px;
 
 }
 .box2,
@@ -518,7 +516,7 @@ input[type=number] { -moz-appearance:textfield; }
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 4;
-    margin: 0 55px;
+   
   }
   .box{
     display: grid;
@@ -565,7 +563,8 @@ input[type=number] { -moz-appearance:textfield; }
     grid-template-columns: 1fr;
   }
   .form textarea{
-    align-items: center;
+    margin: 0;
+    padding: 0;
     width: 280px;
   }
   .box1{
