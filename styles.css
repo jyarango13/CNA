@@ -202,6 +202,9 @@ ul {
   border-radius: 4px;
   height: 40px;
 }
+.form input,textarea::placeholder{
+  padding: 10px ;
+}
 .box1 {
   grid-column-start: 1;
   grid-row-start: 1;
@@ -224,7 +227,7 @@ ul {
   grid-row-start: 3;
   grid-row-end: 5;
   margin: 0 30px;
-  border: 1px solid #575656;
+
 }
 .box2,
 .box3{
