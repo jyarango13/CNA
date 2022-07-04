@@ -166,6 +166,15 @@ ul {
   padding: 50px auto;
   margin: 20px auto;
 }
+.sec:not(:last-of-type):before{
+  position: absolute;
+  top: 1;
+  content: "";
+  width: 70%;
+  height: 1px;
+  background: #575656;
+  opacity: .5;
+}
 .form{
   width: 80%;
   margin: 20px auto;
