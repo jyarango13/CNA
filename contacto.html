@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <title>CNA Logistics</title>
+  <link rel="icon" type="text/css" href="img/LogoCNA.png">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+</head>
+
+<body>
+
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/LogoCNA.png" alt="CNA Logistics" class="nav-brand">
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+            <a href="../CNA/index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Nosotros</a>
+          </li>
+          <li>
+            <a href="../CNA/importaciones.html">Importar</a>
+          </li>
+          <li>
+            <a href="#">Exportar</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+      </ul>
+
+      <!-- Right Nav -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#" id="wsp">
+            <img src="img/whatsapp.png" id="nav-wsp">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!--CONTACT-->
+    <div class="formulario section-form">
+      <!-- TABLA-->
+      <form action="/my-handling-form-page" method="post" class="form">
+
+        <h3>Formulario de Contacto</h3>
+        <div class="sec">
+          <div class="box">
+            <label for="name grid" > SU NOMBRE (*)</label>
+            <input class="controlstn grid" type="text" id="name" name="user_name" placeholder="P.ej. JUAN PEREZ">
+          </div>
+          <div class="box">
+            <label for="mail" > TELEFONO (*) </label>
+            <input class="controlstn grid" type="text" id="telefono" name="telef" placeholder="Ingrese su número de celular">
+          </div>
+          <div class="box">
+            <label for="mail"> E-MAIL (*) </label>
+            <input class="controlstn grid" type="email" id="mail" name="user_mail"
+              placeholder="Ingrese su correo electrónico">
+                    </div>
+         <div class="box4">
+            <label for="name" class="grid"> DESCRIPCIÓN DE LA MERCADERÍA </label>
+            <textarea id="msg" class="contactt" placeholder="P.ej. Repuestos, Celulares, Juguetes, etc." name="user_message"
+              maxlength="700"></textarea>
+           </div>
+           
+        </div>
+      </form>
+    </div>   
+    <!-- SHOWCASE -->
+    <header class="showcase">
+      <div class="card"><h2>Big News Today!</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est praesentium
+          natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
+          similique!</p>
+       
+        <a href="#" class="btn">
+          Quiero Importar 
+        </a>
+        <a href="#" class="btn">
+          Quiero Exportar
+        </a>
+      </div>
+      <div class="card"><img src="img/home_cna.png"></div>
+      
+    </header>
+
+    
+
+    <!-- Card Banner 1-->
+    <section class="cards-banner-one">
+      <div class="contact">
+        <h3>Lorem, ipsum dolor.</h3>
+        <a href="#" class="btn">Contáctenos ahora</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer Links -->
+ 
+ 
+    <div class="footer-container">
+      <section class="footer-texto">
+        <h3>INTERNATIONA LOGISTICS S.A.C.</h3>
+        <p>Av. Lorem Ipsum 123. Lima, Perú.</p>
+        <p>Central telefónica: +51 4565656</p>
+        <p>e-mail: test@cna-int.com.pe</p>
+        <p>Más información tipo disclaimer</p> 
+      </section>
+      <section>
+        <ul>
+          <li><h3>Enlaces rápidos</h3></li>
+          <li><a href="../CNA/index.html">Inicio</a></li>
+          <li><a href="#">Acerca de nosotros</a></li>
+          <li><a href="../CNA/importaciones.html">Importaciones</a></li>
+          <li><a href="#">Exportaciones</a></li>
+        </ul>
+      </section>
+      <section class="social">
+        <p>CNA Logistics</p>
+        <div class="links">
+          <a href="https://facebook.com">
+            <i class="fab fa-facebook-f" id="wc"></i>
+          </a>
+          <a href="https://linkdin.com">
+            <i class="fab fa-linkedin" id="wc"></i>
+          </a>
+          <a href="https://instagram.com">
+            <i class="fab fa-instagram" id="wc"></i>
+          </a>
+          <a href="https://web.whatsapp.com">
+            <i class="fab fa-whatsapp" id="wc"></i>
+          </a>
+      </section>
+    </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>CNA Copyright ©</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
